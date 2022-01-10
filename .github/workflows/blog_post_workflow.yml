@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Pull in github posts
-        uses: gautamkrishnar/blog-post-workflow@master
+      - name: Blog Post Workflow
+        uses: gautamkrishnar/blog-post-workflow@1.6.7
         with:
           feed_list: "https://xuling1979.github.io/index.xml"
